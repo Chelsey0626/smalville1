@@ -25,6 +25,9 @@ def teach1studinfo(request):
 def teachclasssched(request):
     return render(request,'teachclasssched.html')
 
+def teachclassassign(request):
+    return render(request,'teachclassassign.html')
+
 def teachstudlist(request):
     return render(request,'teachstudlist.html')
 
