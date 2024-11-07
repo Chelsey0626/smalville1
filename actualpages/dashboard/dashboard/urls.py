@@ -29,6 +29,7 @@ urlpatterns = [
     path('studentReg',index.studreg, name='studreg'),
     path('studentInfo',index.teach1studinfo, name='teach1studinfo'),
     path('assignSched',index.teachclasssched, name='teachclasssched'),
+    path('assignStudent',index.teachclassassign, name='teachclassassign'),
     path('studentList',index.teachstudlist, name='teachstudlist'),
     path('uploadPay',index.uploadpay, name='uploadpay'),
     path('studentInfo', index.stud1info, name='stud1info'),
